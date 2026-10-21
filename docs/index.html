@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>PhoneEar</title>
+<meta name="description" content="Watch on your Mac. Hear it in your iPhone's headphones.">
+<meta property="og:title" content="PhoneEar">
+<meta property="og:description" content="Watch on your Mac. Hear it in your iPhone's headphones.">
+<meta property="og:image" content="https://shahirislam.github.io/phoneear/how-it-works.png">
+<meta property="og:video" content="https://shahirislam.github.io/phoneear/phoneear.mp4">
+<style>
+  :root { --bg: #0c0c0e; --fg: #f2f2f4; --dim: #8a8a93; --accent: #5eead4; }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; background: var(--bg); color: var(--fg); font: 16px/1.5 -apple-system, BlinkMacSystemFont, system-ui, sans-serif; }
+  main { max-width: 1040px; margin: 0 auto; padding: 48px 16px 64px; display: grid; gap: 28px; justify-items: center; text-align: center; }
+  h1 { margin: 0; font-size: clamp(36px, 7vw, 64px); letter-spacing: -0.03em; line-height: 1; }
+  p { margin: 0; color: var(--dim); font-size: clamp(16px, 2.4vw, 20px); }
+  video { width: 100%; border-radius: 16px; background: #000; box-shadow: 0 30px 80px rgba(0, 0, 0, .5); }
+  a.cta { display: inline-flex; align-items: center; gap: 10px; padding: 14px 22px; border-radius: 12px; background: var(--fg); color: var(--bg); font-weight: 600; text-decoration: none; }
+  a.cta:hover { background: var(--accent); }
+  code { font: 15px/1.4 ui-monospace, SFMono-Regular, Menlo, monospace; color: var(--accent); }
+</style>
+</head>
+<body>
+<main>
+  <h1>PhoneEar</h1>
+  <p>Watch on your Mac. Hear it in your iPhone's headphones.</p>
+  <video src="phoneear.mp4" controls playsinline preload="metadata" poster="poster.jpg"></video>
+  <a class="cta" href="https://github.com/shahirislam/phoneear">Get it on GitHub</a>
+  <p><code>brew install shahirislam/tap/phoneear</code></p>
+</main>
+</body>
+</html>
